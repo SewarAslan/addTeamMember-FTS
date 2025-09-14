@@ -1,4 +1,26 @@
 .memberList {
   display: flex;
   flex-direction: column;
+  gap: 8px;
+  margin-bottom: 24px;
+  max-height: 320px;
+  overflow-y: auto;
+}
+
+.memberList::-webkit-scrollbar {
+  width: 6px;
+}
+
+.memberList::-webkit-scrollbar-track {
+  background: #f1f5f9;
+  border-radius: 3px;
+}
+
+.memberList::-webkit-scrollbar-thumb {
+  background: #cbd5e0;
+  border-radius: 3px;
+}
+
+.memberList::-webkit-scrollbar-thumb:hover {
+  background: #a0aec0;
 }

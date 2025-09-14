@@ -1,5 +1,5 @@
 import MemberListItem from "./MemberListItem";
-
+import "./MemberList.css";
 export default function MemberList() {
   const members = [
     { id: 1, name: "Carolien Bloeme", selected: false },
