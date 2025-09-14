@@ -1,0 +1,51 @@
+.memberListItem {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: white;
+  border: 1px solid #333;
+  border-radius: 6px;
+  padding: 10px;
+  margin: 3px 0;
+  cursor: pointer;
+  transition: background 0.2s;
+}
+
+.memberListItem:hover {
+  background: #c5e8e2;
+}
+
+.memberInfo {
+  width: 100%;
+  display: flex;
+  align-items: center;
+}
+
+.userIcon {
+  color: #89b0b3;
+}
+
+.memberName {
+  font-size: 14px;
+  font-weight: 500;
+  color: #b6cbcd;
+}
+.checkIcon {
+  color: #89b0b3;
+  font-size: 18px;
+}
+.selected {
+  .checkIcon {
+    color: #4caf50;
+    font-size: 18px;
+  }
+
+  .userIcon {
+    color: hsl(0, 0%, 20%);
+  }
+  .memberName {
+    font-size: 14px;
+    font-weight: 500;
+    color: #333;
+  }
+}
