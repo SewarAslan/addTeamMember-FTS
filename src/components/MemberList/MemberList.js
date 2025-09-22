@@ -1,4 +1,4 @@
-import MemberListItem from "./MemberListItem";
+import MemberListItem from "../MemberListItem";
 import "./MemberList.css";
 export default function MemberList() {
   const members = [

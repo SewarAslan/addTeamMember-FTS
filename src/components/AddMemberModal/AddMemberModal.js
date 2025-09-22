@@ -1,7 +1,7 @@
-import Footer from "./Footer";
-import Header from "./Header";
-import MemberList from "./MemberList";
-import MemberSearch from "./MemberSearch";
+import Footer from "../Footer";
+import Header from "../Header";
+import MemberList from "../MemberList";
+import MemberSearch from "../MemberSearch";
 import "../App.css";
 export default function AddMemberModal() {
   return (

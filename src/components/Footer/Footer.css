@@ -1,0 +1,41 @@
+.footer {
+  display: flex;
+  gap: 12px;
+  margin-top: 24px;
+}
+
+.footer-btn-primary {
+  flex: 1;
+  background: linear-gradient(135deg, #667eea, #764ba2);
+  color: white;
+  border: none;
+  border-radius: 12px;
+  padding: 14px 20px;
+  font-size: 16px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.2s ease;
+  box-shadow: 0 4px 12px rgba(102, 126, 234, 0.3);
+}
+
+.footer-btn-primary:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 6px 20px rgba(102, 126, 234, 0.4);
+}
+
+.footer-btn-secondary {
+  padding: 14px 20px;
+  background: transparent;
+  color: #718096;
+  border: 2px solid #e2e8f0;
+  border-radius: 12px;
+  font-size: 16px;
+  font-weight: 500;
+  cursor: pointer;
+  transition: all 0.2s ease;
+}
+
+.footer-btn-secondary:hover {
+  border-color: #cbd5e0;
+  color: #4a5568;
+}

@@ -1,5 +1,5 @@
 import "./App.css";
-import AddMemberModal from "./components/AddMemberModal";
+import AddMemberModal from "./components/AddMemberModal/AddMemberModal";
 
 function App() {
   return (
